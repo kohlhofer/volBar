@@ -7,9 +7,9 @@ export interface Props {
   ogImage?: string;
 }
 
-const { title, description = "Control your Mac's volume with any MIDI controller. Perfect for anyone with a MIDI controller who wants convenient volume control.", ogImage = "og-image.png" } = Astro.props;
+const { title, description = "Control Mac and Music volumes separately and independently from your menu bar. Two sliders for complete control.", ogImage = "og-image.png" } = Astro.props;
 
-const siteUrl = import.meta.env.PROD ? 'https://kohlhofer.com/midiVol' : 'http://localhost:4321';
+const siteUrl = import.meta.env.PROD ? 'https://kohlhofer.com/volBar' : 'http://localhost:4321';
 const fullOgImageUrl = siteUrl + '/' + ogImage;
 ---
 
@@ -26,36 +26,36 @@ const fullOgImageUrl = siteUrl + '/' + ogImage;
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={fullOgImageUrl} />
-  <meta property="og:image:alt" content="MIDI Volume Control App Icon" />
+  <meta property="og:image:alt" content="Menu Volume App Icon" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={siteUrl + Astro.url.pathname} />
-  <meta property="og:site_name" content="MIDI Volume Control" />
-  
+  <meta property="og:site_name" content="Menu Volume" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={fullOgImageUrl} />
-  <meta name="twitter:image:alt" content="MIDI Volume Control App Icon" />
+  <meta name="twitter:image:alt" content="Menu Volume App Icon" />
   
   <!-- Schema.org markup for app -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "MIDI Volume Control",
+      "name": "Menu Volume",
       "operatingSystem": "macOS",
       "applicationCategory": "UtilitiesApplication",
-      "description": "Control your Mac's volume with any MIDI controller. Perfect for anyone with a MIDI controller who wants convenient volume control.",
+      "description": "Control Mac and Music volumes separately and independently from your menu bar. Two sliders for complete control.",
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
       },
-      "downloadUrl": "https://apps.apple.com/us/app/midi-volume-control/id6752268711?mt=12",
+      "downloadUrl": "https://apps.apple.com/us/app/menu-volume/id6752268711?mt=12",
       "requirements": "macOS 10.15 or later",
       "author": {
         "@type": "Organization",
-        "name": "MIDI Volume Control"
+        "name": "Menu Volume"
       }
     }
   </script>
