@@ -51,11 +51,11 @@ git push origin main # Deploy via GitHub Actions
 - **Icon:** tbd
 
 ### Key Features to Highlight
-1. **System Volume Control** - Real-time MIDI control of Mac system volume
+1. **System Volume Control** - Quick and easy control of Mac system volume via menu bar
 2. **Apple Music Integration** - Independent Apple Music volume control
-4. **Menu Bar Integration** - Live volume sliders and quick access
-5. **Launch at Login** - Automatic startup option
-6. **Sandbox Security** - App Store ready with minimal permissions
+3. **Menu Bar Integration** - Live volume sliders and quick access
+4. **Launch at Login** - Automatic startup option
+5. **Sandbox Security** - App Store ready with minimal permissions
 
 ### Content Guidelines
 - Target audience: Mac users, anyone wanting convenient volume control
