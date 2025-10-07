@@ -14,42 +14,30 @@
       </p>
     </div>
 
-    <div class="grid lg:grid-cols-2 gap-12 items-start">
-      <!-- Settings Window -->
-      <div class="space-y-6">
-        <div class="text-center lg:text-left">
-          <h3 class="text-2xl font-bold text-gray-900 mb-4">Easy Configuration</h3>
-          <p class="text-lg text-gray-600 mb-8">
-            Simple settings let you enable Apple Music integration and launch at login. Everything works right out of the box.
-          </p>
-        </div>
-
-        <div>
-          <img
-            src={import.meta.env.BASE_URL + 'MenuBar.jpg'}
-            alt="Volume Control Menu Bar Interface"
-            class="w-full rounded-2xl shadow-2xl"
-          />
-        </div>
+    <!-- Text Blocks Side by Side -->
+    <div class="grid lg:grid-cols-2 gap-12 mb-8">
+      <div class="text-center lg:text-left">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Easy Configuration</h3>
+        <p class="text-lg text-gray-600">
+          Simple settings let you enable Apple Music integration and launch at login. Everything works right out of the box.
+        </p>
       </div>
 
-      <!-- Menu Bar Interface -->
-      <div class="space-y-6">
-        <div class="text-center lg:text-left">
-          <h3 class="text-2xl font-bold text-gray-900 mb-4">Independent Control</h3>
-          <p class="text-lg text-gray-600 mb-8">
-            Separate sliders for system and Apple Music volume give you precise control over each audio source independently.
-          </p>
-        </div>
-
-        <div>
-          <img
-            src={import.meta.env.BASE_URL + 'MenuBar.jpg'}
-            alt="Volume Control Menu Bar with Independent Sliders"
-            class="w-full rounded-2xl shadow-2xl"
-          />
-        </div>
+      <div class="text-center lg:text-left">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Independent Control</h3>
+        <p class="text-lg text-gray-600">
+          Separate sliders for system and Apple Music volume give you precise control over each audio source independently.
+        </p>
       </div>
+    </div>
+
+    <!-- Full Width Screenshot -->
+    <div class="mb-16">
+      <img
+        src={import.meta.env.BASE_URL + 'placeholder-full.jpg'}
+        alt="Menu Volume Interface"
+        class="w-full rounded-2xl shadow-2xl"
+      />
     </div>
 
     <!-- Feature Highlights -->
