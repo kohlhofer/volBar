@@ -3,21 +3,23 @@ import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
 import Features from '../components/Features.astro';
 import Screenshots from '../components/Screenshots.astro';
-import CTA from '../components/CTA.astro';
 import AdditionalFeatures from '../components/AdditionalFeatures.astro';
+import Permissions from '../components/Permissions.astro';
+import CTA from '../components/CTA.astro';
 import Footer from '../components/Footer.astro';
 ---
 
 <Layout
-  title="Volume Control - Control your Mac's system and music volume independently"
-  description="Convenient volume control for your Mac. Features independent system and Apple Music volume control with menu bar interface. Perfect for Mac users who want easy audio management."
+  title="Menu Volume - Mac & Music volume control in your menu bar"
+  description="Keep Apple Music at the level you like while adjusting your Mac's overall volume. Separate sliders for Mac and Music volume in your menu bar."
 >
 	<main>
 		<Hero />
 		<Features />
 		<Screenshots />
-		<CTA />
 		<AdditionalFeatures />
+		<Permissions />
+		<CTA />
 		<Footer />
 	</main>
 </Layout>
